@@ -10,7 +10,7 @@ This revolution would not be easy without several components, including the book
 In this talk, we will share our experience of writing the Geocomputation with R book (https://geocompr.github.io/).
 We will show how to start writing an open-source book, which tools are useful, and how to collaborate on a large project while being a continent apart.
 We will also point out a few areas where improvements would be welcomed.
-Finally, we will give examples of how writing a book have a positive influence on a larger R community.
+Finally, we will give examples of how writing an open-source book can have a positive influence on a larger R community.
 <!--a type (tutorial/oral presentation/lightning talk/poster)-->
 oral presentation
 <!-- a topic; just one-->
