@@ -24,6 +24,6 @@ bookdown, open-source book, community, publishing
 1. create a repo with our setup, including style files, travis setup, etc. and the instructions on how to start
 2. explain our setup during the talk (bookdown, GitHub, travis, etc.)
 3. explain our working system (e.g. gitter, Skype meeting, use of GitHub issues)
-4. show some issues (e.g. having HTML and pdf, ...)
+4. show some issues (e.g. having HTML and pdf, too wide code chunks outputs, ...)
 5. show how writing a book influence other packages (on a few examples, e.g. including tmap)
 -->
