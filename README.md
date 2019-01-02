@@ -10,3 +10,5 @@
 * Abstract selection and diversity scholarship announcement: April 15
 * End of early bird registration: April 30
 
+**UseR 2019 - July 9-12th**
+
