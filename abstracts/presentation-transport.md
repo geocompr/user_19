@@ -13,11 +13,12 @@ Of course, performance is also important.
 The talk will conclude by outlining recent developments in the wider area of open source software for transport planning, and its implications for people who currently use, or want to use, R for transport planning research and practice.
 -->
 
+Lai, J., Lortie, C.J., Muenchen, R.A., Yang, J., Ma, K., 2019. Evaluating the popularity of R in ecology. Ecosphere 10, e02567. https://doi.org/10.1002/ecs2.2567
+
 <!--a type (tutorial/oral presentation/lightning talk/poster)-->
 oral presentation
 <!-- a topic; just one-->
 
-Lai, J., Lortie, C.J., Muenchen, R.A., Yang, J., Ma, K., 2019. Evaluating the popularity of R in ecology. Ecosphere 10, e02567. https://doi.org/10.1002/ecs2.2567
 
 
 <!-- key words-->
