@@ -2,10 +2,11 @@
 R for Transport Planning
 
 <!--an abstract 1200 characters max-->
-Since the first release of R in 1997, its use in many fields has grown rapidly.
+Since the first release of R on CRAN, in 1997, its use in many fields has grown rapidly.
 Lai et al. (2019), for example, suggest that more than 50% of research articles published in Ecology use R in some way.
-Much like many ecological datasets, transport data tend to be large, diverse and have space-time coordinates<!--dimensions??-->.
-However, uptake of R for Transport Planning has been more limited, with a far lower percentage of papers in the field making use of the language, raising the question, why?
+Much like many ecological datasets, transport data tend to be large, diverse and have spatial *and* temporal attributes.
+Unlike Ecology, Transport Planning has been a slow adopter of R, with a much lower percentage of papers using the language.
+This raises the question: why?
 After briefly exploring this question, with reference to the history of transport planning practice, and its domination by a few software products, this presentation will sketch an outline of what an open source transport planning 'ecosystem' based on R could look like.
 Based on my own experience of developing the stplanr package and teaching practitioners, the talk will discuss the importance of building 'communities of practice', to support early adopters in the field, in addition to performance considerations and how R fits into the wider area of open source software for transport planning.
 <!--
