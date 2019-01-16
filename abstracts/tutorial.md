@@ -6,9 +6,8 @@ Geocomputation with R
 <!--an abstract 1200 characters max-->
 Spatial data analysis has long been a strength of R.
 <!-- JM: next sentence is hard to understand (maybe the "which" and "was" helps); anyway what's the point of mentioning splancs? -->
-Major steps forward since packages such as splancs (published in 1993) which was released in R precursor, S, include the release of sp, in 2005 and raster, in 2010.
-<!-- maybe make it more generic by saying: "which integrates spatial vector data with the tidyverse". -->
-Since then R's spatial capabilities have continued to evolve, notably with the release of sf (which allows integration of spatial data in dplyr pipelines) in 2016.
+Major steps forward since packages such as spatial and splancs (written in early 1990s) include the release of sp in 2005 and raster in 2010.
+Since then R's spatial capabilities have continued to evolve, notably with the release of sf, which integrates spatial vector data with the tidyverse, in 2016.
 In tandem such developments, R's spatial ecosystem is maturing and diversifying in multiple areas including data access (e.g., rworldmap, rnaturalearth, cshapes); visualization (e.g., rasterVis, leaflet, mapview, ggmap, ggplot2, cartogram, tmap); and modeling (e.g, spatial components in mlr and INLA).
 
 Such diversity has benefits, but can be overwhelming.
