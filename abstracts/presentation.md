@@ -2,17 +2,17 @@
 How to win friends and write an open-source book 
 
 <!--an abstract 1200 characters max-->
-In the last few years, we have witnessed a revolution in an R book publishing industry.
-Early adopters of open publishing, such as Advanced R (published in 2014), have encouraged more authors to switch to a hybrid system, in which books are published online *and* in print.
+Over the last few years, a quiet revolution has been brewing in the R book publishing industry.
+Since the publication of early open source books, such as Advanced R (published in 2014), many authors have switched to a hybrid system, in which books are published online *and* in print.
 This approach has several advantages, including
-(1) the readers can choose to read the online or paper version of the book;
-(2) the process retains the formal process of reviews and professional copy editing provided by the publisher;
+(1) people can choose how to read the book, online or in print;
+(2) the process retains the process of reviews and professional copy-editing provided by publishers;
 (3) the wider community can contribute, leading to many improvements in the code and text.
-This revolution is possible thanks to several developments, including the bookdown package, version control and continuous integration services, and many more.
-In this talk, we will share our experience of writing the Geocomputation with R book (https://geocompr.github.io/).
+Several developments have enabled this revolution, including the bookdown package, version control and continuous integration services.
+This talk will share our experience of writing the open source book Geocomputation with R (https://geocompr.github.io/).
 We will show how to start writing an open-source book, which tools are useful, and how to collaborate on a large project while being a continent apart.
-We will also point out a few areas where improvements would be welcomed.
-Finally, we will give examples of how writing an open-source book can have a positive influence on a larger R community.
+We will also point out a few issues the process, and how we navigated them.
+Overall, we advocate writing an open source book and hope the talk will be useful to others thinking about starting such a project.
 
 <!--a type (tutorial/oral presentation/lightning talk/poster)-->
 oral presentation
