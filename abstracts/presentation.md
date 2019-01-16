@@ -3,11 +3,12 @@ How to win friends and write an open-source book
 
 <!--an abstract 1200 characters max-->
 In the last few years, we have witnessed a revolution in an R book publishing industry.
-Starting from ..., more and more books are published in a new hybrid system.
-It allows for a situation when you can have your cake and eat it at the same time.
-An online, open-source version of a book is available freely using a creative commons license, while a printed version of the book can be bought from a publisher.
-This way (1) the readers can decide if they want to read online or paper version of the book, (2) the book has a high quality due to several rounds of reviews and professional copy editing process.
-This revolution would not be easy without several components, including the bookdown package, online version control services (e.g., GitHub), continuous integration services (e.g., Travis CI), and many more.
+Early adopters of open publishing, such as Advanced R (published in 2014), have encouraged more authors to switch to a hybrid system, in which books are published online *and* in print.
+This approach has several advantages, including
+(1) the readers can choose to read the online or paper version of the book, and make an informed decision before buying it;
+(2) the process retains the formal process of reviews and professional copy editing provided by the publisher;
+(3) the wider community can contribute, leading to many improvements in the code and text.
+This revolution is possible thanks to several developments, including the bookdown package, online version control services (e.g., GitHub), continuous integration services (e.g., Travis CI), and many more.
 In this talk, we will share our experience of writing the Geocomputation with R book (https://geocompr.github.io/).
 We will show how to start writing an open-source book, which tools are useful, and how to collaborate on a large project while being a continent apart.
 We will also point out a few areas where improvements would be welcomed.
