@@ -23,4 +23,4 @@ tutorial
 <!-- a topic; just one-->
 
 <!-- key words-->
-geographics data, spatial analysis, maps, GIS
+geographic data, spatial analysis, maps, GIS
