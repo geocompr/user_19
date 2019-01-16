@@ -4,15 +4,14 @@
 Geocomputation with R
 
 <!--an abstract 1200 characters max-->
-Spatial data analysis has long been a strength of R.
-<!-- JM: next sentence is hard to understand (maybe the "which" and "was" helps); anyway what's the point of mentioning splancs? -->
-Major steps forward since packages such as spatial and splancs (written in early 1990s) include the release of sp in 2005 and raster in 2010.
-Since then R's spatial capabilities have continued to evolve, notably with the release of sf, which integrates spatial vector data with the tidyverse, in 2016.
-In tandem such developments, R's spatial ecosystem is maturing and diversifying in multiple areas including data access (e.g., rworldmap, rnaturalearth, cshapes); visualization (e.g., rasterVis, leaflet, mapview, ggmap, ggplot2, cartogram, tmap); and modeling (e.g, spatial components in mlr and INLA).
+Spatial data analysis has long been one of R's strengths, with a history dating back to the 1990s and milestones including the release of sp in 2005 and raster in 2010.
+Since then, R's spatial capabilities have continued to evolve.
+The release of sf made spatial dat increasingly accessible, especially to tidyverse users.
+R's spatial ecosystem continues to evolve in many directions, including: data access (e.g., rworldmap, rnaturalearth, cshapes); visualization (e.g., rasterVis, leaflet, mapview, ggmap, ggplot2, cartogram, tmap); and modeling (e.g, spatial components in mlr and INLA).
 
 Such diversity has benefits, but can be overwhelming.
-In this context, the goal of this tutorial is to provide a practical guided tour of R's spatial ecosystem.
-It will show how to get started with future-proof packages (particularly sf), how to do spatial analysis (including spatial subsetting and aggregation), and how to make beautiful maps.
+The goal of this tutorial is to provide a practical overview of R's spatial ecosystem; the target audience is R users who are new to geographic data.
+The focus on *getting started*, with demonstrations of key packages (particularly sf), spatial analysis (including spatial subsetting and aggregation), making maps.
 Pointers to further materials will ensure that participants know where to get help and how to take confident next steps after the session.
 <!--The tutorial will consist of a short presentations, code demos, and exercises.-->
 
