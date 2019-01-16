@@ -7,7 +7,7 @@ Lai et al. (2019), for example, suggest that more than 50% of research articles 
 Much like many ecological datasets, transport data tend to be large, diverse and have spatial *and* temporal attributes.
 Unlike Ecology, Transport Planning has been a slow adopter of R, with a much lower percentage of papers using the language.
 This raises the question: why?
-After exploring this question, in relation to dominant transport planning products, will provide a sketch of what an open source transport planning 'ecosystem' could look like.
+After exploring this question, in relation to dominant transport planning software products, the talk will sketch of what an open source transport planning 'ecosystem' could look like.
 Based on my own experience, of developing the **stplanr** package and teaching practitioners, the talk will discuss the importance of building 'communities of practice', for transport planners making the switch to R.
 These observations relate to others promoting R in new environments, and link to the wider question of how to advocate for open source software in wider society.
 
