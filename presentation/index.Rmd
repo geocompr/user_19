@@ -21,25 +21,46 @@ options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center", message = FALSE)
 ```
 
+# the Geocomputation with R book
+
+---
+
+<!-- 1. intro to the book -->
+<!-- 2. intro to the concepts of open source books: -->
 <!-- Over the last few years, a quiet revolution has been brewing in the R book publishing industry. -->
 <!-- Since the publication of early open source books, such as Advanced R (published in 2014), many authors have switched to a hybrid system, in which books are published online *and* in print. -->
 <!-- This approach has several advantages, including -->
 <!-- (1) people can choose how to read the book, online or in print, and make an informed decision before buying it; -->
 <!-- (2) the book retains the process of reviews and professional copy-editing provided by publishers; -->
 <!-- (3) the wider community can contribute, leading to many improvements in the code and text. -->
-<!-- Several developments have enabled this revolution, including the bookdown package, online version control services (e.g., GitHub), continuous integration services (e.g., Travis CI), and many more. -->
-<!-- This talk will share our experience of writing the open source book Geocomputation with R (https://geocompr.github.io/). -->
-<!-- We will show how to start writing an open-source book, which tools are useful, and how to collaborate on a large project while being a continent apart. -->
-<!-- We will also point out a few issues in the process, and how we navigated them. -->
-<!-- Overall, we advocate writing an open source book and hope the talk will be useful to others thinking about starting such a project. -->
 
-<!--JN ideas for the talk
-1. create a repo with our setup, including style files, travis setup, etc. and the instructions on how to start
-2. explain our setup during the talk (bookdown, GitHub, travis, etc.)
-3. explain our working system (e.g. gitter, Skype meeting, use of GitHub issues)
-4. show some issues (e.g. having HTML and pdf, too wide code chunks outputs, ...)
-5. show how writing a book influence other packages (on a few examples, e.g. including tmap)
--->
+---
+class: inverse, left, bottom
+
+# Why?
+
+<!-- 5. show how writing a book influence other packages (on a few examples, e.g. including tmap) -->
+
+
+---
+class: inverse, left, bottom
+
+# How to start
+
+<!-- Several developments have enabled this revolution, including the bookdown package, online version control services (e.g., GitHub), continuous integration services (e.g., Travis CI), and many more. -->
+<!-- 2. explain our setup during the talk (bookdown, GitHub, travis, etc.) -->
+<!-- 3. explain our working system (e.g. gitter, Skype meeting, use of GitHub issues) -->
+
+<!-- We will show how to start writing an open-source book, which tools are useful, and how to collaborate on a large project while being a continent apart. -->
+
+---
+class: inverse, left, bottom
+
+# Room for improvement
+
+---
+
+<!-- 4. show some issues (e.g. having HTML and pdf, too wide code chunks outputs, ...) -->
 
 ---
 class: center, top
