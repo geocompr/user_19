@@ -4,10 +4,10 @@
     <title>How to win friends and write an open-source book</title>
     <meta charset="utf-8" />
     <meta name="author" content="Jakub Nowosad, Robin Lovelace, Jannes Muenchow" />
+    <meta name="date" content="2019-07-12" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
     <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
-    <link href="libs/ionicons/css/ionicons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
@@ -17,17 +17,26 @@ class: center, middle, inverse, title-slide
 # How to win friends and write an open-source book
 ## <a href="https://geocompr.github.io/" class="uri">https://geocompr.github.io/</a>
 ### Jakub Nowosad, Robin Lovelace, Jannes Muenchow
-### 2019-07-??
+### 2019-07-12
 
 ---
 
-class: inverse, left, bottom
 
 
 
-# the Geocomputation with R book
+# The Geocomputation with R book
 
----
+.pull-left[
+&lt;img src="figs/cover.png" width="75%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+- Geocomputation with R is for people who want to analyze, visualize and model geographic data with open source software
+- Two years in the making
+- Three main parts: Foundations, Extensions, and Applications
+- The online open source version of the book is hosted at https://geocompr.robinlovelace.net
+- This book has now been published by CRC Press in the R Series - you can buy the book from CRC Press, Wordery, or Amazon
+]
 
 &lt;!-- 1. intro to the book --&gt;
 &lt;!-- 2. intro to the concepts of open source books: --&gt;
@@ -39,51 +48,219 @@ class: inverse, left, bottom
 &lt;!-- (3) the wider community can contribute, leading to many improvements in the code and text. --&gt;
 
 ---
-class: inverse, left, bottom
+# The book beginnings
 
-# Why?
+&lt;!-- https://nowosad.github.io/post/geocomputation-with-r-the-afterword/ --&gt;
 
-&lt;!-- 5. show how writing a book influence other packages (on a few examples, e.g. including tmap) --&gt;
+.pull-left[
+During my PhD, I spent a lot of time learning R and applying it to my research. That was also a period when I had an opportunity to teach several courses, and some of them, including Geostatistics, where heavily based on R and its spatial components.
+
+I had met Robin Lovelace in June 2016. He was in Poznan, Poland to give a short course on spatial data analysis in R for undergraduate and graduate students at the Adam Mickiewicz University, while at that time I was just a few weeks before my PhD thesis defense. We spent some time exchanging our own experiences about spatial R and our approaches to teaching it. During this talks, we found that we shared an idea of writing a book. A book explaining how to use R for spatial data analysis, where the main audience is ourselves just a few years before.
+]
+
+.pull-right[
+photo
+]
+
+---
+# The publisher
+
+.pull-left[
+&lt;img src="figs/john-kimmel.jpg" width="600" style="display: block; margin: auto;" /&gt;
+
+add crc logo
+]
+
+.pull-right[
+how to start
+pros and cons of this way of publishing
+Get feedback early, get feedback often
+Deallines
+Latex (copy editing)
+translations
+]
+
+---
+# The book infractucture
+
+.pull-left[
+- Bookdown - https://bookdown.org/; https://bookdown.org/yihui/bookdown/
+- GitHub - https://github.com/ 
+- Travis CI - https://travis-ci.org/
+- Netlify - https://www.netlify.com/
+- Zotero - https://www.zotero.org/ + https://github.com/crsh/citr
+- R packages
+]
+
+.pull-right[
+&lt;img src="figs/yihui-xie.png" width="613" style="display: block; margin: auto;" /&gt;
+]
+
+---
+# An open source book
+
+.pull-left[
+&lt;img src="figs/geocompr-github.png" width="1100" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+We decided early on to develop this book in the open to remove financial barriers to learning open source software. It also enables community contributions, which we encourage on any part of the book, for example:
+
+- Improvements to the text, e.g. clarifying unclear sentences, fixing typos
+- Changes to the code, e.g. to do things in a more efficient way
+- Suggestions on content in the issue tracker
+]
+
+---
+# a collaboration
+
+.pull-left[
+- Start with an outline
+- Schedule regular time to write (make it a habit)
+- book style - https://github.com/Robinlovelace/geocompr/blob/master/our-style.md
+
+- Regular contact: gitter, skype
+
+]
+
+.pull-right[
+gif/images with line by line writing
+]
+
+---
+# the third author
+
+.pull-left[
+&lt;img src="figs/jannes.jpg" width="613" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right[
+A few months into making the book, Robin and I were contacted by a person we never met before, a postdoc at Friedrich-Schiller-University Jena and an author of the RQGIS package. The ‘first contact’ seems to have been in the RQGIS issue tracker, where Robin and I commented saying that we’d like to mention the package in the book, hoping for feedback. We ended up with much more than that!
+
+Jannes Muenchow, the mysterious figure mentioned above, firstly gave us a concise idea about a chapter showing how to bridge R with traditional geographic information system software and next he wrote a high-quality piece of text and code. You can read about it more in a blog post about from about a year ago.
+]
+
+---
+# an open source cycle I
+
+.pull-left[
+exisiting packages (sf, raster, tmap)
+existing software (gdal, proj, etc.)
+
+]
+
+.pull-right[
+packages/software authors
+]
+
+---
+# an open source cycle II
+
+.pull-left[
+our issues/pull requests/ideas/bug reports
+
+]
+
+.pull-right[
+
+]
+
+---
+# an open source cycle III
+
+.pull-left[
+exisiting packages authors comments, reviews, pull requests
+
+]
+
+.pull-right[
+
+]
+
+---
+# an open source cycle IV
+
+.pull-left[
+other people issues/comments/questions/requests
+ever the book cover!
+https://geocompr.robinlovelace.net/preface.html#acknowledgements
+Our ideas about the geocompr structure evolved over time. 
+
+]
+
+.pull-right[
+
+]
 
 
 ---
-class: inverse, left, bottom
+# additional materials
 
-# How to start
+As a bonus, there is much extra material, providing additional depth in particular topic areas and solutions to the exercises at the end of each chapter. These can all be found at geocompr.github.io/, which contains links to presentations, articles and more content related to Geocomputation with R. Of particular interest may be the geocompr workshop at eRum 2018 and an extended article on geographic data and the tidyverse: pitfalls to avoid.
 
-&lt;!-- Several developments have enabled this revolution, including the bookdown package, online version control services (e.g., GitHub), continuous integration services (e.g., Travis CI), and many more. --&gt;
-&lt;!-- 2. explain our setup during the talk (bookdown, GitHub, travis, etc.) --&gt;
-&lt;!-- 3. explain our working system (e.g. gitter, Skype meeting, use of GitHub issues) --&gt;
-
-&lt;!-- We will show how to start writing an open-source book, which tools are useful, and how to collaborate on a large project while being a continent apart. --&gt;
+Key features of the book are exercises at the end of each chapter. Solutions to these can be found as vignettes in our metapackage geocompkg. It is also a place for extended examples for several methods and functions mentioned in Geocomputation with R, and other miscellaneous materials related to Geocomputation with R.
 
 ---
-class: inverse, left, bottom
+# community
 
-# Room for improvement
+.pull-left[
+&lt;img src="figs/geocompr-org.png" width="533" style="display: block; margin: auto;" /&gt;
+
+
+]
+
+.pull-right[
+tweeter
+issues
+reviews
+]
+
 
 ---
+# closing notes
 
-&lt;!-- 4. show some issues (e.g. having HTML and pdf, too wide code chunks outputs, ...) --&gt;
+.pull-left[
+Issues:
+
+- show some issues (e.g. having HTML and pdf, too wide code chunks outputs, ...) 
+- connecting excersizes to the solutions
+- connecting chunks to code
+- latex (you should know from the start)
+- 
+]
+
+.pull-right[
+How to start:
+
+- bookdown book
+- source codes of existing books
+]
+
 
 ---
-class: center, top
+class: left, top
 
 
 .pull-left[
 ## Summary:
-- one
-- two
-- three
+
+- Writing a book is hard, but very satisfying
+- Most parts of the book creation infrustcture is already here
+- ...
+- &lt;!--collaboration--&gt;
+- Thank you all!
 ]
 
 
 .pull-right[
 ## Contact:
 
-Twitter: <i class="ion  ion-social-twitter "></i> jakub_nowosad
+Twitter: ii_social-twitter #geocompr
 
-Twitter: <i class="ion  ion-social-twitter "></i> robinlovelace
+Twitter: ii_social-twitter jakub_nowosad
+
+Twitter: ii_social-twitter robinlovelace
 
 ## Resources:
 
