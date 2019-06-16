@@ -34,7 +34,7 @@ knitr::include_graphics("figs/cover.png")
 - Two years in the making
 - Three main parts: Foundations, Extensions, and Applications
 - The online open source version of the book is hosted at https://geocompr.robinlovelace.net
-- This book has now been published by CRC Press in the R Series - you can buy the book from [CRC Press]https://www.crcpress.com/Geocomputation-with-R/Lovelace-Nowosad-Munchow/p/book/9781138304512), [Wordery](https://wordery.com/geocomputation-with-r-robin-lovelace-9781138304512), or [Amazon](https://www.amazon.com/Geocomputation-Chapman-Hall-Robin-Lovelace/dp/1138304514/)
+- This book has now been published by CRC Press in the R Series - you can buy the book from [CRC Press](https://www.crcpress.com/Geocomputation-with-R/Lovelace-Nowosad-Munchow/p/book/9781138304512), [Wordery](https://wordery.com/geocomputation-with-r-robin-lovelace-9781138304512), or [Amazon](https://www.amazon.com/Geocomputation-Chapman-Hall-Robin-Lovelace/dp/1138304514/)
 ]
 
 <!-- 1. intro to the book -->
@@ -82,6 +82,8 @@ knitr::include_graphics("figs/crc_press-logo.png")
 - People can choose how to read the book, online or in print, and make an informed decision before buying it
 - The book retains the process of reviews and professional copy-editing provided by publishers<!-- translations -->
 - The wider community can contribute, leading to many improvements in the code and text
+
+Of course, you can always [self-publish a book](https://blog.datascienceheroes.com/how-to-self-publish-a-book/)...
 
 <!-- how to start -->
 <!-- add some text about creating a proposal to the publisher -->
@@ -244,9 +246,13 @@ knitr::include_graphics("figs/frontcover.png")
 
 - https://geocompr.github.io/
 
+--
+
 ```{r}
 knitr::include_graphics("figs/geocompr-website.png")
 ```
+
+--
 
 **It contains:**
 
@@ -318,12 +324,14 @@ class: left, top
 .pull-left[
 ## Summary:
 
+<!--what else??-->
+
 - Writing a book is hard, but very satisfying
 - Collaboration is crutial
 - Most parts of the book creation infrustcture is already here
 - Thank you all!
 
-<!--what else??-->
+
 ]
 
 
