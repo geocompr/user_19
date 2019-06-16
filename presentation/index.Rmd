@@ -97,7 +97,7 @@ Of course, you can always [self-publish a book](https://blog.datascienceheroes.c
 
 - [**Bookdown**](https://bookdown.org/yihui/bookdown/) - R package built on top of R Markdown; complete solution for creations books in multiple formats (PDF/HTML/Word/…); allows for numbering and cross-referencing figures/tables/sections/equations, etc.
 - [**GitHub**](https://github.com/) - stores the book code; allows for collaboration 
-- [**Travis CI**](https://travis-ci.org/) - automatically builds the book after code changes
+- [**Travis CI**](https://travis-ci.org/) - automaticaly builds the book after code changes
 - [**Netlify**](https://www.netlify.com/) - hosts the book website
 - [**Zotero**](https://www.zotero.org/) - stores the references
 - **Existing R packages** - e.g. [citr](https://github.com/crsh/citr) - eases inserting citations; [kableExtra](https://github.com/haozhu233/kableExtra) - creates tables
@@ -208,7 +208,7 @@ photos of packages/software authors
 ]
 
 .pull-right[
-**Existing packages authors' feedback**:
+**Exisiting packages authors' feedback**:
 
 - Comments
 - Suggestions
@@ -300,7 +300,7 @@ The Geocomputation with R book is still alive:
 
 - Having consistent html and pdf versions, especially when using a published LaTeX style<!--it is good to know about that from the start-->
 <!-- - show some issues (e.g. having HTML and pdf, too wide code chunks outputs, ...)  -->
-- Connecting exercises to the solutions<!--e.g. updates-->
+- Connecting excersizes to the solutions<!--e.g. updates-->
 - Relating book code chunks outputs to their code<!--new R session/old R session-->
 - Formal reviewing process do not use GitHub issues/pull requests
 - Formal copy editing do not use bookdown
@@ -327,22 +327,22 @@ class: left, top
 <!--what else??-->
 
 - Writing a book is hard, but very satisfying
-- Collaboration is crucial
-- Most parts of the book creation infrastructure is already here
+- Collaboration is crutial
+- Most parts of the book creation infrustcture is already here
 - Thank you all!
-
-
 ]
 
 
 .pull-right[
 ## Contact:
 
-Twitter: `r icon::ii_social_twitter()` #geocompr
+<!-- `r icon::ii_social_twitter()` -->
 
-Twitter: `r icon::ii_social_twitter()` jakub_nowosad
+Twitter: #geocompr
 
-Twitter: `r icon::ii_social_twitter()` robinlovelace
+Twitter: jakub_nowosad
+
+Twitter: robinlovelace
 
 ## Resources:
 
