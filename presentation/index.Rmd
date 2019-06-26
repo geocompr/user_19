@@ -23,7 +23,11 @@ options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center", message = FALSE)
 ```
 
-class: inverse, left, middle, nonum
+class: inverse, left, middle, nonum, clear
+background-image: url("figs/scover.png")
+background-size: cover
+
+<br>
 
 # HOW<br>TO<br>WIN<br>FRIENDS<br>&<br>WRITE<br>AN OPEN-SOURCE<br>BOOK
 

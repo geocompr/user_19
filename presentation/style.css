@@ -16,6 +16,13 @@
 }
 
 
+.cover-slide {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 1em 2em 1em 2em
+}
+
 @media print {
   .remark-slide-scaler {
     width: 100% !important;
