@@ -8,6 +8,7 @@ output:
     css: [default, metropolis, metropolis-fonts, "style.css"]
     lib_dir: libs
     self_contained: false
+    chakra: "libs/remark-latest.min.js"
     nature:
       highlightStyle: github
       highlightLines: true
