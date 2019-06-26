@@ -11,6 +11,11 @@
   margin: 0;
 }
 
+.nonum .remark-slide-number {
+  display: none;
+}
+
+
 @media print {
   .remark-slide-scaler {
     width: 100% !important;

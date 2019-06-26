@@ -5,6 +5,7 @@ author: "Jakub Nowosad, Robin Lovelace, Jannes Muenchow"
 date: "2019-07-12"
 output:
   xaringan::moon_reader:
+    seal: false
     css: [default, metropolis, metropolis-fonts, "style.css"]
     lib_dir: libs
     self_contained: false
@@ -22,6 +23,15 @@ options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center", message = FALSE)
 ```
 
+class: inverse, left, middle, nonum
+
+# HOW<br>TO<br>WIN<br>FRIENDS<br>&<br>WRITE<br>AN OPEN-SOURCE<br>BOOK
+
+### https://geocompr.github.io/
+
+.LARGE[Jakub Nowosad, Robin Lovelace, Jannes Muenchow | useR! | 2019-07-12]
+
+---
 # The Geocomputation with R book
 
 .pull-left[
