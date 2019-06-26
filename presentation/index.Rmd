@@ -28,11 +28,10 @@ background-image: url("figs/scover.png")
 background-size: cover
 
 <br>
-
+<br>
 # HOW<br>TO<br>WIN<br>FRIENDS<br>&<br>WRITE<br>AN OPEN-SOURCE<br>BOOK
 
-### https://geocompr.github.io/
-
+### https://geocompr.github.io
 .LARGE[Jakub Nowosad, Robin Lovelace, Jannes Muenchow | useR! | 2019-07-12]
 
 ---
@@ -224,6 +223,8 @@ photos of packages/software authors
 ]
 
 .pull-right[
+
+
 <!--add examples - images-->
 ]
 
@@ -232,6 +233,13 @@ photos of packages/software authors
 
 .pull-left[
 <!--add examples - images-->
+
+```{r}
+knitr::include_graphics(c("figs/02-impact1.png",
+                          "figs/02-impact2.png",
+                          "figs/02-impact4.png",
+                          "figs/02-impact3.png"))
+```
 
 
 ]
