@@ -375,7 +375,7 @@ class: left, top
 .pull-right[
 ## Contact:
 
-<!-- `r icon::ii_social_twitter()` -->
+<!-- `r # icon::ii_social_twitter()` -->
 
 Twitter: #geocompr
 
