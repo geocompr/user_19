@@ -84,31 +84,40 @@ photo
 ---
 # The publisher
 
-.pull-left[
-```{r, out.width="80%"}
-knitr::include_graphics("figs/john-kimmel.jpg")
-```
 
-```{r}
-knitr::include_graphics("figs/crc_press-logo.png")
-```
-]
 
-.pull-right[
+.lc2[
 A few months later, we sent our proposal to publishing companies.
+
 
 <!-- can we think of more pros or cons?-->
 
 Our book uses **a hybrid system**, in which books are published online *and* in print:
 
-- People can choose how to read the book, online or in print, and make an informed decision before buying it
+- People can choose how to read the book<!--, online or in print,--> and make an informed decision before buying it
 - The book retains the process of reviews and professional copy-editing provided by publishers<!-- translations -->
 - The wider community can contribute, leading to many improvements in the code and text
 
 Of course, you can always [self-publish a book](https://blog.datascienceheroes.com/how-to-self-publish-a-book/)...
 
+
+
 <!-- how to start -->
 <!-- add some text about creating a proposal to the publisher -->
+]
+
+.rc2[
+```{r, out.width="70%"}
+knitr::include_graphics("figs/john-kimmel.jpg")
+```
+
+```{r, out.width="70%"}
+knitr::include_graphics("figs/crc_press-logo.png")
+```
+
+Publishers allowing for a hybrid model books: CRC Press, O'Reilly, OTexts, Princeton, Cambridge University Press
+
+Self-publishing venues: Lulu.com, leanpub.com, Amazon.com
 ]
 
 ---
