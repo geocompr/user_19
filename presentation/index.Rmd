@@ -342,7 +342,7 @@ The Geocomputation with R book is alive:
 - Having consistent html and pdf versions, especially when using a published LaTeX style<!--it is good to know about that from the start-->
 <!-- - show some issues (e.g. having HTML and pdf, too wide code chunks outputs, ...)  -->
 - Relating book code chunks outputs to their code<!--new R session/old R session-->
-- Connecting excersizes to the solutions<!--e.g. updates-->
+- Connecting exercises to the solutions<!--e.g. updates-->
 - Formal reviewing process do not use GitHub issues/pull requests
 - Formal copy editing do not use bookdown
 
@@ -371,7 +371,7 @@ class: left, top, clear
 <!--what else??-->
 
 - Writing a book is hard, but very satisfying
-- Collaboration is crutial
+- Collaboration is crucial
 - Most parts of the book creation infrastructure is already here
 - Thank you all!
 ]
