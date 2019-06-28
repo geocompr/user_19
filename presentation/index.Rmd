@@ -209,14 +209,16 @@ photos of packages/software authors
 ]
 
 ---
+background-image: url("figs/our-impact.png")
+background-size: cover
 # An open source cycle II
 
 .pull-left[
-**[Our impact](https://github.com/Robinlovelace/geocompr/blob/master/our-impact.csv)**
+**[Our impact](https://github.com/Robinlovelace/geocompr/blob/master/our-impact.csv)**:
 
+- Reporting bugs
+- Clarifying documentations
 - Proposing enhancements
-- Reporting of bugs
-- Clarifying of documentations
 - Pull requests
 
 <!--add examples - text-->
@@ -237,8 +239,7 @@ photos of packages/software authors
 ```{r}
 knitr::include_graphics(c("figs/02-impact1.png",
                           "figs/02-impact2.png",
-                          "figs/02-impact4.png",
-                          "figs/02-impact3.png"))
+                          "figs/02-impact4.png"))
 ```
 
 
@@ -251,6 +252,10 @@ knitr::include_graphics(c("figs/02-impact1.png",
 - Suggestions
 - Reviews
 - Pull requests
+
+```{r}
+knitr::include_graphics(c("figs/02-impact3.png"))
+```
 
 <!--add examples - text-->
 <!--e.g. Rogers input on R history; David Cooley on mapview-->
@@ -267,7 +272,7 @@ knitr::include_graphics("figs/frontcover.png")
 ]
 
 .pull-right[
-**Readers input:**
+**Readers input**:
 
 - Comments/suggestions/questions/requests (more than 200 GitHub issues)
 - Pull requests  (more than 200 GitHub pull requests)
@@ -352,6 +357,7 @@ The Geocomputation with R book is alive:
 
 - Visiting https://bookdown.org/
 - Xie, Y. (2016). Bookdown: Authoring Books and Technical Documents with R Markdown. Chapman and Hall/CRC. https://bookdown.org/yihui/bookdown/
+- Trying the bookdown demo at https://github.com/rstudio/bookdown-demo
 - Reading source codes of existing books, e.g. https://github.com/Robinlovelace/geocompr, https://github.com/hadley/r4ds
 ]
 
