@@ -152,20 +152,20 @@ It also enables community contributions, which we (still) encourage on any part 
 ]
 
 ---
-# A collaboration: a few tips
+# Collaboration: a few tips
 
-.pull-left[
 - Start with an outline, but don't be afraid to change it later
 - Schedule regular time to write - make it a habit
 - Have [a book style](https://github.com/Robinlovelace/geocompr/blob/master/our-style.md), e.g. **package**, `function()`, `=`, `en-us` spelling
 - Stay in touch with your co-authors - regular contact: [Gitter](https://gitter.im), [Skype](https://www.skype.com/en/)
 - Keep a feedback loop going
 - Be kind and positive
-]
 
-.pull-right[
-gif/images with line by line writing
-]
+<br>
+
+```{r}
+knitr::include_graphics("figs/lines.gif")
+```
 
 ---
 # The third author
@@ -341,8 +341,8 @@ The Geocomputation with R book is alive:
 
 - Having consistent html and pdf versions, especially when using a published LaTeX style<!--it is good to know about that from the start-->
 <!-- - show some issues (e.g. having HTML and pdf, too wide code chunks outputs, ...)  -->
-- Connecting excersizes to the solutions<!--e.g. updates-->
 - Relating book code chunks outputs to their code<!--new R session/old R session-->
+- Connecting excersizes to the solutions<!--e.g. updates-->
 - Formal reviewing process do not use GitHub issues/pull requests
 - Formal copy editing do not use bookdown
 
@@ -362,7 +362,7 @@ The Geocomputation with R book is alive:
 
 
 ---
-class: left, top
+class: left, top, clear
 
 
 .pull-left[
