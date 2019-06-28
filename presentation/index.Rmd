@@ -188,6 +188,8 @@ knitr::include_graphics("figs/jannes.jpg")
 ]
 
 ---
+background-image: url("figs/spatial-authors.png")
+background-size: cover
 # An open source cycle I
 
 .pull-left[
@@ -204,9 +206,6 @@ knitr::include_graphics("figs/jannes.jpg")
 - [PROJ](https://proj.org/)
 ]
 
-.pull-right[
-photos of packages/software authors
-]
 
 ---
 background-image: url("figs/our-impact.png")
