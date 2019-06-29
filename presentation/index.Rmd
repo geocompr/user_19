@@ -266,7 +266,7 @@ knitr::include_graphics(c("figs/02-impact3.png"))
 ```
 
 <!--add examples - text-->
-<!--e.g. Rogers input on R history; David Cooley on mapview-->
+<!--e.g. Rogers input on R history; David Cooley on mapview; Chris Reudenbach-->
 ]
 
 ---
