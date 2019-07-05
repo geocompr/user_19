@@ -245,9 +245,17 @@ background-size: cover
 <!--add examples - images-->
 
 ```{r}
-knitr::include_graphics(c("figs/02-impact1.png",
-                          "figs/02-impact2.png",
-                          "figs/02-impact4.png"))
+knitr::include_graphics(c("figs/02-impact1.png"))
+```
+
+
+```{r}
+knitr::include_graphics(c("figs/02-impact2.png"))
+```
+
+
+```{r}
+knitr::include_graphics(c("figs/02-impact4.png"))
 ```
 
 
@@ -260,6 +268,8 @@ knitr::include_graphics(c("figs/02-impact1.png",
 - Suggestions
 - Reviews
 - Pull requests
+
+<br>
 
 ```{r}
 knitr::include_graphics(c("figs/02-impact3.png"))
