@@ -78,7 +78,10 @@ knitr::include_graphics("figs/cover.png")
 ]
 
 .pull-right[
-photo
+```{r}
+knitr::include_graphics("figs/rl-and-jn.jpg")
+```
+
 ]
 
 ---
@@ -242,16 +245,17 @@ background-size: cover
 .pull-left[
 <!--add examples - images-->
 
+*David Cooley*
 ```{r}
 knitr::include_graphics(c("figs/02-impact1.png"))
 ```
 
-
+*Roger Bivand*
 ```{r}
 knitr::include_graphics(c("figs/02-impact2.png"))
 ```
 
-
+*Tim Appelhans*
 ```{r}
 knitr::include_graphics(c("figs/02-impact4.png"))
 ```
@@ -268,7 +272,7 @@ knitr::include_graphics(c("figs/02-impact4.png"))
 - Pull requests
 
 <br>
-
+*Chris Reudenbach*
 ```{r}
 knitr::include_graphics(c("figs/02-impact3.png"))
 ```
