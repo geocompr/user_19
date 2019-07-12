@@ -385,7 +385,7 @@ knitr::include_graphics("figs/geocompr-org.png")
 ---
 class: left, top, clear
 
-### **Slides:** http://bit.ly/geocompr-slides
+### **Slides:** http://bit.ly/user2019-geocompr
 
 .pull-left[
 ## Summary:
